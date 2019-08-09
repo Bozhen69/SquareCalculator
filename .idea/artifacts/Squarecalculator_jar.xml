@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Squarecalculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Squarecalculator_jar</output-path>
+    <root id="archive" name="Squarecalculator.jar">
+      <element id="module-output" name="Squarecalculator" />
+    </root>
+  </artifact>
+</component>

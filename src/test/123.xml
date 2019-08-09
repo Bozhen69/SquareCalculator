@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shapes>
+    <triangle>
+        <color>red</color>
+        <side>1.5</side>
+        <side>1.5</side>
+        <side>1.5</side>
+    </triangle>
+    <square>
+        <color>green</color>
+        <side>5.0</side>
+    </square>
+    <circle>
+        <color>orange</color>
+        <diameter>1.5</diameter>
+    </circle>
+    <rectangle>
+        <color>blue</color>
+        <side>1.0</side>
+        <side>2.0</side>
+    </rectangle>
+</shapes>
