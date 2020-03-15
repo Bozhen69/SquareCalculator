@@ -1,3 +1,5 @@
+package model;
+
 public class Square extends AbstractQuadrangle {
 
     public Square(String color, double side) {

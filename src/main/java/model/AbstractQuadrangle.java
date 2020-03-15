@@ -1,3 +1,5 @@
+package model;
+
 public abstract class AbstractQuadrangle extends AbstractShape {
     protected double height;
     protected double weight;

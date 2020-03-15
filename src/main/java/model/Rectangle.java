@@ -1,7 +1,9 @@
+package model;
+
 public class Rectangle extends AbstractQuadrangle {
 
-    public Rectangle(String color, double height, double weight) {
-        super(color, height, weight);
+    public Rectangle(String color, double[] sides) {
+        super(color, sides[0], sides[1]);
     }
 
     public double getArea() {

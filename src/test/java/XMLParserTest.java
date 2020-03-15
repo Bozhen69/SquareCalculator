@@ -1,4 +1,4 @@
-import org.junit.Assert;
+import model.*;
 import org.junit.Test;
 import org.xml.sax.SAXException;
 
@@ -33,7 +33,7 @@ public class XMLParserTest {
         shapes1.add(new Triangle("red",new double[]{1.5,1.5,1.5}));
         shapes1.add(new Square("green",5.0));
         shapes1.add(new Circle("orange",1.5));
-        shapes1.add(new Rectangle("blue",1.0,2.0));
+        shapes1.add(new Rectangle("blue",new double[]{1.0,2.0}));
         shapes1.add(new Circle(ShapeParser.END_QUEUE,-5.0));
         for(int i=0;i<shapes1.size();i++){
             try {

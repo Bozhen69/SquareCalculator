@@ -1,7 +1,9 @@
+package model;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-abstract class AbstractShape {
+public abstract class AbstractShape {
     private static long count;
 
     private final long id=count++;
